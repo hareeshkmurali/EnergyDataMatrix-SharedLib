@@ -27,3 +27,4 @@ Invoke-Command -ComputerName $CompName -Credential $credObject -ScriptBlock {
     [io.compression.zipfile]::CreateFromDirectory($source, $dest)
 } -ArgumentList $BuildNumber, $WSName, $SrcName, $DirPath
 
+
